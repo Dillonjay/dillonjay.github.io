@@ -105,7 +105,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: linear-gradient(to bottom right, #a0788f, #841755);
+  background: linear-gradient(to bottom right, #0f0e0e, #992f6b);
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -303,7 +303,7 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background: linear-gradient(to bottom right, #a0788f, #841755);
+  background: linear-gradient(to bottom right, #0f0e0e, #992f6b);
 }
 footer .footer-col {
   margin-bottom: 50px;
