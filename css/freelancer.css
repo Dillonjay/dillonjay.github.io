@@ -221,6 +221,20 @@ section.success {
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
 }
+#portfolio .portfolio-item .portfolio-link .caption .tooltiptextbottom {
+  visibility: visible;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+  left: 50%;
+  margin-left: -60px;
+}
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
   width: 100%;
