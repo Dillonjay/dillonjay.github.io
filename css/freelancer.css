@@ -44,6 +44,7 @@ hr.star-primary:after {
   top: -0.8em;
   font-size: 2em;
   padding: 0 0.25em;
+  border-radius:10px;
 }
 hr.star-light {
   border-color: black;
@@ -91,6 +92,7 @@ header .intro-text .name {
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
+  color:black;
 }
 @media (min-width: 768px) {
   header .container {
@@ -127,10 +129,10 @@ header .intro-text .skills {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: white;
+  color: black;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: black;
+  color: white;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -171,6 +173,7 @@ header .intro-text .skills {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    color:black;
   }
   .navbar-custom.affix {
     padding: 10px 0;
