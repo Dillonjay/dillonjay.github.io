@@ -480,7 +480,6 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
-  /*OR ======   background: linear-gradient(to bottom right, white, #992f6b);*/
   background-image: url('../img/ocean.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -491,16 +490,20 @@ fieldset[disabled] .btn-success.active {
   padding: 100px 0;
   text-align: center;
   color:white;
+  font-size:2em;
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 .portfolio-modal .modal-content img {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+.portfolio-modal .modal-content p {
+  font-size:1em;
 }
 .portfolio-modal .modal-content .item-details {
-  margin: 30px 0;
+  margin: 0;
 }
 .portfolio-modal .close-modal {
   position: absolute;
@@ -525,6 +528,9 @@ fieldset[disabled] .btn-success.active {
   -webkit-transform: rotate(45deg);
   /* Safari and Chrome */
   z-index: 1051;
+}
+.portfolio-modal a {
+  color:white;
 }
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
