@@ -68,7 +68,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid white;
   background-image: url('../img/ocean.jpg');
   background-size:100% 100%;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white ;
+  color: white;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
@@ -137,8 +137,8 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: white;
-  outline: none;
+  color:#fdfdfd;
+  outline-color:white;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -482,7 +482,7 @@ fieldset[disabled] .btn-success.active {
   background-clip: border-box;
   /*OR ======   background: linear-gradient(to bottom right, white, #992f6b);*/
   background-image: url('../img/ocean.jpg');
-  background-size: 100vw 150vh;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -490,6 +490,7 @@ fieldset[disabled] .btn-success.active {
   min-height: 100%;
   padding: 100px 0;
   text-align: center;
+  color:white;
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
@@ -511,13 +512,13 @@ fieldset[disabled] .btn-success.active {
   cursor: pointer;
 }
 .portfolio-modal .close-modal:hover {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 .portfolio-modal .close-modal .lr {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2C3E50;
+  background-color: white;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -528,7 +529,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2C3E50;
+  background-color: white;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
