@@ -473,6 +473,10 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
+  /*OR ======   background: linear-gradient(to bottom right, white, #992f6b);*/
+  background-image: url('../img/ocean.jpg');
+  background-size: 100vw 150vh;
+  background-repeat: no-repeat;
   -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
@@ -536,4 +540,7 @@ fieldset[disabled] .btn-success.active {
 #portfolio {
   color: black;
   border-bottom: solid 3px black;
+}
+span.tech {
+  background: linear-gradient(to bottom right, white, #992f6b);
 }
