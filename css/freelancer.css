@@ -1,6 +1,8 @@
 /*TODOOO Font, Images, Deploy, Individual modals, About me, button click deal.*/
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
+
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Bahiana , 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
 p {
@@ -14,7 +16,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: black;
   outline: none;
 }
 h1,
@@ -23,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Bahiana, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -39,7 +41,6 @@ hr.star-primary {
 }
 hr.star-light:after,
 hr.star-primary:after {
- 
   font-family: FontAwesome;
   display: inline-block;
   position: relative;
@@ -49,7 +50,7 @@ hr.star-primary:after {
   border-radius:10px;
 }
 hr.star-light {
-  border-color: black;
+  border-color: white;
 }
 hr.star-light:after {
   background-color: black;
@@ -69,7 +70,7 @@ header {
   text-align: center;
   border-bottom: 3px solid black;
   background-image: url('../img/ocean.jpg');
-  background-size: 100vw 150vh;
+  background-size:100% 100%;
   background-repeat: no-repeat;
   color: white;
 }
@@ -85,16 +86,16 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Bahiana, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
-  color:black;
+  color: white;
 }
 header .intro-text .skills {
-  font-size: 1.25em;
+  font-size: 3em;
   font-weight: 300;
-  color:black;
+  color: white;
 }
 @media (min-width: 768px) {
   header .container {
@@ -102,19 +103,20 @@ header .intro-text .skills {
     padding-bottom: 100px;
   }
   header .intro-text .name {
-    font-size: 4.75em;
+    font-size: 6em;
   }
   header .intro-text .skills {
-    font-size: 1.75em;
+    font-size: 3em;
   }
 }
 .navbar-custom {
   background: linear-gradient(to bottom right, #0f0e0e, #992f6b);
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Bahiana, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  font-size: 2em;
   font-weight: 700;
   border: none;
-   border-bottom: solid 1px black;
+  border-bottom: solid 1px white;
 }
 .navbar-custom a:focus {
   outline: none;
@@ -191,12 +193,12 @@ section {
 }
 section h2 {
   margin: 0;
-  font-size: 3em;
+  font-size: 4em;
 }
 section.success {
   background: linear-gradient(to bottom right, #0f0e0e, #992f6b);
   color: white;
-  border-bottom: solid 3px black;
+  border-bottom: solid 3px white;
 }
 @media (max-width: 767px) {
   section {
@@ -319,15 +321,20 @@ form .row:first-child .floating-label-form-group {
 }
 footer {
   color: white;
-  border-bottom: solid 3px black;
 }
 footer h3 {
-  margin-bottom: 30px;
+  font-size:3em;
 }
+
+footer p {
+  font-size:2.5em
+}
+
 footer .footer-above {
   padding-top: 50px;
   background-image: url('../img/ocean.jpg');
   background-position: 0px 570px;
+  border-bottom: solid 1px white;
 }
 footer .footer-col {
   margin-bottom: 50px;
@@ -535,12 +542,22 @@ fieldset[disabled] .btn-success.active {
 }
 #contact {
   color: black;
-  border-bottom: solid 3px black;
+  border-bottom: solid 3px white;
 }
 #portfolio {
   color: black;
-  border-bottom: solid 3px black;
+  border-bottom: solid 3px white;
 }
 span.tech {
-  background: linear-gradient(to bottom right, white, #992f6b);
+  background: linear-gradient(to bottom right, #0f0e0e, #992f6b);
+}
+.controls {
+  font-size: 20px;
+}
+.contact-title {
+  font-size: 25px;
+}
+.port {
+  height:230px;
+  width:400px;
 }
