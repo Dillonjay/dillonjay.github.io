@@ -532,6 +532,13 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal a {
   color:white;
 }
+.portfolio-modal button {
+  color:black;
+  background: white;
+}
+.portfolio-modal button:hover {
+  background: linear-gradient(to bottom right, white, #992f6b);
+}
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
