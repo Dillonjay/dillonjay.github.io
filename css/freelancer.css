@@ -350,6 +350,7 @@ footer .footer-below {
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
+  font-size:2em;
 }
 .btn-outline:hover,
 .btn-outline:focus,
@@ -558,9 +559,18 @@ fieldset[disabled] .btn-success.active {
   color: black;
   border-bottom: solid 3px white;
 }
+#contact label {
+  font-size:2em;
+}
+#contact a {
+  font-size:1.5em;
+}
 #portfolio {
   color: black;
   border-bottom: solid 3px white;
+}
+#about p {
+  font-size:2em;
 }
 span.tech {
   background: linear-gradient(to bottom right, #0f0e0e, #992f6b);
